@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, serif;
+    font-size: 20px;
+    background: ghostwhite;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+
+    text-align: start;
+    align-items: flex-start;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    background: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
+}
+
+header img
+{
+    height: 100%;
+}
+
+h1
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tiles
+{
+    position: absolute;
+    top: 20%;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square
+{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 2%;
+
+    overflow: hidden;
+
+    background-image: url("pics/soon.png");
+    background-size: 100%;
+    background-position: center;
+
+    border: 5px solid black;
+    border-radius: 5px;
+    transition: background-size 0.5s ease;
+}
+
+.square:hover
+{
+    background-size: 110%;
+}
+
+.news-text
+{
+    margin-top: 30%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.news-text h1
+{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-text p
+{
+    margin-left: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#money {
+    background-image: url("pics/money2.jpg");
+}
+
+#tema {
+    background-image: url("pics/gelik.jpg");
+}
+
+#olga {
+    background-image: url("pics/olga700m.jpg");
+}
+
+footer
+{
+    width: 80%;
+    height: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    background: black;
+}
